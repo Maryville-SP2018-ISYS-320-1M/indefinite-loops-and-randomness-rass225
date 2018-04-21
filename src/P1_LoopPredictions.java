@@ -6,7 +6,7 @@
 
 /*
  How many times do you expect the loop to repeat? Remember that 
- “zero,” “infinity,” and “unknown” are legal answers.
+ â€œzero,â€� â€œinfinity,â€� and â€œunknownâ€� are legal answers.
  
  What do you expect the loop to output?
  
@@ -28,10 +28,11 @@
 /*
  Was your prediction correct?
  
- (a)
- (b)
- (c)
- (d)
+ (a)No output
+ (b)No output
+ (c)No output
+ (d)No output
+ it also gave me an error, saying that many characters in this file are using unknown coding and are invalid
 
 */
 public class P1_LoopPredictions {
@@ -39,9 +40,11 @@ public class P1_LoopPredictions {
 	public static void main(String[] args) {
 		System.out.println("STARTING LOOP TEST");
 		
-		
-		// copy and paste the loop to test between here, between the println statements
-		
+		int max = 10;
+		int y = 250;
+		while( y % 3 != 0 ) {
+		    System.out.println( y );
+		}
 				
 		System.out.println("ENDING LOOP TEST");
 	}

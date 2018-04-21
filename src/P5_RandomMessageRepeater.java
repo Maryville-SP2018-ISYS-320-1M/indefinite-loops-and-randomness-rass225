@@ -12,3 +12,4 @@ public class P5_RandomMessageRepeater {
 	}
 
 }
+// This is not part of the exercise!

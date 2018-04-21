@@ -6,7 +6,7 @@
 
 /*
  How many times do you expect the loop to repeat? Remember that 
- “zero,” “infinity,” and “unknown” are legal answers.
+ â€œzero,â€� â€œinfinity,â€� and â€œunknownâ€� are legal answers.
  
  What do you expect the loop to output?
  
@@ -32,7 +32,7 @@
  (b)
  (c)
  (d)
-
+ERROR AGAIN, Can't print the code!!
 */
 public class P4_DoLoopPredictions {
 
@@ -40,7 +40,11 @@ public class P4_DoLoopPredictions {
 		System.out.println("STARTING LOOP TEST");
 		
 		
-		// copy and paste the loop to test between here, between the println statements
+		int x = 1;
+		do {
+		    System.out.print( x + " ");
+		    x = x + 10;
+		} while( x < 100 );
 		
 				
 		System.out.println("ENDING LOOP TEST");
